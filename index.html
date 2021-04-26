@@ -1,0 +1,94 @@
+<html>
+  <head>
+      <title> My first webpage
+         </title>
+</head>
+ <body>
+   <header>  <h1> XYZ Salon </h1>
+   </header>
+        <main>
+          <section>
+             <h2>About Us </h2>
+                   <p> Hello! Our sole motto is the satisfaction of our customers. We follow all the safety measures in these covid times and offers you the best sevice we can. </p>
+                   </section>
+              <section>
+                 <h2> Services we offer </h2>
+                     <h3> <i> Spa </i> </h3>
+                        <p> After a long day who doesn't want to calm and relax? Our Salon offers you the best spa experience you can get in the city. </p>
+                        <img src="images\img.jpg" alt="f"  style = "width:100%; float:center;" > <br>
+
+                         <a href="#"> To learn more click here </a>
+                        <br>
+                        <hr>
+                         <h3> <i>  Manicures and Pedicures  </i></h3>
+                           <p> Are those nails annoying you for a long time? Come to us and we will help you to get them to next level. </p>
+                           <img src="images\nail-technician-school.jpg"  alt="f" style="width:100%; float:center;"> <br>
+                           <hr>
+                            <h3> <i>  Waxing </i> </h3>
+                              <p> You don't have to worry about those hairs while wearing one piece, leave that worry to us and we'll take care of it. </p>
+                               <img src="images\Waxing-legs-salon.jpg" alt="f" style="width:100%; float:center;"> <br>
+                               <hr>
+                <h3> <i> Facials </i> </h3>
+                <p>Rejuvenate yourself! In these stressful times, relax a bit and relive your youth. </p>
+                <img src="images\customized-facial.jpg" alt="f" style="width:100%; float:center;"> <br>
+                <hr>
+                 <h3> <i> Bridal Looks </i> </h3>
+                  <p> Weddin in your home? Let's worry about grooming you all. You won't regret it!!! </p>
+                  <img src="images\Screenshot_20210426-174242_Instagram.jpg" alt="f" style="height:400px; width:350px;">
+                  <img src="images\Screenshot_20210426-174236_Instagram.jpg" alt="f" style="height:400px; width:350px;">
+                  <img src="images\Screenshot_20210426-174305_Instagram.jpg" alt="f" style="height:400px; width:350px;">
+                  <br>
+                  <hr>
+                    <h3> <i> Our some other sevices </i> </h3>
+                     <ol>
+                           <li> <img src="images\Screenshot_20210426-174329_Instagram.jpg"  alt="f"   style="height:400px; width:350px;">
+                             <cite> Highlights </cite>
+                             </li>
+                             <li> <img src="images\Screenshot_20210426-174319_Instagram.jpg" alt="f"   style="height:400px; width:350px;">
+                               <cite> Curls </cite>
+                               </li>
+                        </ol>
+                    </section>
+        <section>
+           <h2> Book a service </h2>
+             <p> You can book a service and we'll come to you or you can visit our salon for a whole new experience </p>
+
+             <form method ="GET"  action="bookameet.php">
+               <h4> Address </h4>
+               <input name="address1" placeholder="address line 1" class="lg-input"/> <br>
+               <input name="address2" placeholder="address line 2" class="lg-input"/> <br>
+               <input name ="city" placeholder="city" class="sm-input"/> <br>
+               <input name="state" placeholder="state" class="sm-input"/> <br>
+               <input name="pincode" placeholder="pincode" class="sm-input"/> <br>
+               <br>
+               <h4> Service place </h4>
+               <input name="splace" type="radio" value="home"/> Home <br>
+               <input name="splace" type="radio" value="salon"/> Salon<br> <br>
+               <select name="gender">
+                 <option value="male"> Male </option>
+                 <option value="female"> Female </option>
+                 <option value="other"> Other </option>
+                 </select> <br><br>
+                 <h4> Services you are looking for </h4>
+                 <input name="Services" type="checkbox" value="spa"/> Spa <br>
+                 <input name="Services" type="checkbox" value="Manicure"/> Manicure<br>
+                 <input name="Services" type="checkbox" value="Pedicure"/>Pedicure <br>
+                 <input name="Services" type="checkbox" value="Waxing"/> "Waxing<br><br>
+                 <h5> Looking for some other service? specify </h5>
+                 <input name="ser" placeholder="service" class="lg-input"/> <br> <br>
+                 <button type = "submit" > <Confirm </button>
+                   </form>
+        </section>
+        <footer>
+
+          <address> xyz Salon
+                  road no.3 ,
+                  kota
+                  rajasthan
+            </address>
+            <center> &copy; 2021 <br> </center>
+            </footer>
+        </main>
+  </body>
+
+</html>
